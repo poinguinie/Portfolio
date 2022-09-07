@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LJH's Portfolio</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/navi.css">
+    <style>
+        .Content {
+            position: fixed;
+            top: 0;
+            left: 320px;
+            width: calc(100% - 340px);
+            background-color: #DBD4C1;
+            margin: 10px;
+            padding: 12px;
+            box-shadow: 5px 10px #CFC8B5;
+        }
+        .skills > div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .skills .front-end {
+            padding: 8px;
+            background-color: #9FAABE;
+            width: 300px;
+            height: 276px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .skills > div > div {
+            margin: 8px;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+        .skills > div > div input {
+            margin: 4px;
+            width: 70%;
+            height: 40px;
+        }
+        .skills > div > div > label {
+            background-color: white;
+            border-radius: 50%;
+            padding: 4px;
+        }
+        .skills > div > div > div > label {
+        }
+        .Content h2 {
+            font-family: 'Thinoo-Bold';
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="Navi">
+            <div class="profileImg">
+                <img src="./images/profile.png">
+            </div>
+            <p class="profile">
+                <p id="name">
+                    이지호
+                </p>
+                <p id="name_chi">
+                    (李智浩)
+                </p>
+                <div class="age">
+                    <p>1999년생</p>
+                    <p>(만 23세)</p>
+                </div>
+                <div class="contact">
+                    <div class="mail">
+                        <img src="./images/mail.png" alt="mail">
+                    </div>
+                    <div class="github">
+                        <img src="./images/github.png" alt="github">
+                    </div>
+                    <div class="kakao">
+                        <img src="./images/kakao.png" alt="kakao">
+                    </div>
+                </div>
+                <div class="slogan">
+                    <h3>슬로건</h3>
+                    <p>
+                        내일의 나를 만드는 건<br>
+                        오늘의 자신이다
+                    </p>
+                </div>
+                <div class="school">
+                    <p class="title">학력</p>
+                    <p class="desc">
+                        2018.03 - 2023.02 (예정) 순천향대학교 컴퓨터공학과 학사<br>
+                        2014.03 - 2017.02 거창고등학교
+                    </p>
+                </div>
+                <div class="job">
+                    <p class="title">경력</p>
+                    <p class="desc">
+                        2021.07 - 2021.12 로보그램 AJAX, Unity 강사<br>
+                        2020.01 - 2021.07 군 유선장비정비병 제대
+                    </p>
+                </div>
+                <div class="certificate">
+                    <p class="title">자격증</p>
+                    <p class="desc">
+                        2022.04 1종 보통 운전면허<br>
+                        2022.05 토익 550점
+                    </p>
+                </div>
+            </p>
+            <div class="Footer">
+                © 2022. Lee Ji Ho <br>
+                All right reserved.
+            </div>
+        </div>
+        <div class="Content">
+            <div class="skills">
+                <h2>SKILLS</h2>
+                <div class="front-end">
+                    <h4>Front-End</h4>
+                    <div class="js">
+                        <label>JS</label>
+                        <div>
+                            <input type="range" name="js" id="js" value="90" disabled>
+                            <label>90%</label>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

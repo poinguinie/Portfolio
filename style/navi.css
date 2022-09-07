@@ -1,0 +1,75 @@
+.Navi {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.Navi .profileImg {
+    margin-top: 40px;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.Navi .profileImg img {
+    max-width: 100px;
+    max-height: 150px;
+}
+.age {
+    margin-top: 8px;
+    font-size: 12px;
+}
+.age p:first-child {
+    font-weight: 600;
+}
+.contact {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.contact div {
+    cursor: pointer;
+    margin: 4px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slogan {
+    width: 280px;
+    height: 80px;
+    background-color: #A5A58D;
+    color: white;
+    margin-top: 8px;
+    text-align: center;
+    box-shadow: 5px 5px #888871;
+}
+.slogan h3 {
+    font-weight: normal;
+}
+.school, .job, .certificate {
+    margin-top: 20px;
+    font-size: 12px;
+    width: 100%;
+    margin-left: 10px;
+}
+.school .title, .job .title, .certificate .title {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.Navi .Footer {
+    font-size: 10px;
+    position: fixed;
+    bottom: 10px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}

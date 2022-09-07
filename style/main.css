@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3;
+}
+
+@font-face {
+    font-family: 'Thinoo-Bold';
+    src: url('../fonts/thinoobold.otf');
+    unicode-range:U+0041-005A, U+0061-007A;
+}
+@font-face {
+    font-family: 'Thinoo-Thin';
+    src: url('../fonts/thinoothin.otf');
+    unicode-range:U+0041-005A, U+0061-007A;
+}
+
+* {
+    font-family: 'IBMPlexSansKR-Regular', 'Thinoo-Thin';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 100vw;
+    display: inline-flex;
+    position: relative;
+}
