@@ -7,53 +7,7 @@
     <title>LJH's Portfolio</title>
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/navi.css">
-    <style>
-        .Content {
-            position: fixed;
-            top: 0;
-            left: 320px;
-            width: calc(100% - 340px);
-            background-color: #DBD4C1;
-            margin: 10px;
-            padding: 12px;
-            box-shadow: 5px 10px #CFC8B5;
-        }
-        .skills > div {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .skills .front-end {
-            padding: 8px;
-            background-color: #9FAABE;
-            width: 300px;
-            height: 276px;
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-        }
-        .skills > div > div {
-            margin: 8px;
-            display: flex;
-            align-items: center;
-            position: relative;
-        }
-        .skills > div > div input {
-            margin: 4px;
-            width: 70%;
-        }
-        .skills > div > div > label {
-            background-color: white;
-            border-radius: 50%;
-            padding: 4px;
-        }
-        .skills > div > div > div > label {
-        }
-        .Content h2 {
-            font-family: 'Thinoo-Bold';
-        }
-
-    </style>
+    <link rel="stylesheet" href="./style/skills.css">
 </head>
 <body>
     <div class="wrapper">
@@ -120,16 +74,106 @@
         <div class="Content">
             <div class="skills">
                 <h2>SKILLS</h2>
-                <div class="front-end">
-                    <h4>Front-End</h4>
-                    <div class="js">
-                        <label>JS</label>
-                        <div>
-                            <input type="range" name="js" id="js" value="90" disabled>
-                            <label>90%</label>
+                <div class="wrap">
+                    <div class="row">
+                        <div class="front-end">
+                            <h4>Front-End</h4>
+                            <div class="lang">
+                                <div class=JS">
+                                    <label>JS</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="90" disabled>
+                                        <label>90%</label>
+                                    </div>
+                                </div>
+                                <div class="HTML">
+                                    <label>HTML</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="90" disabled>
+                                        <label>90%</label>
+                                    </div>
+                                </div>
+                                <div class="CSS">
+                                    <label>CSS</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="80" disabled>
+                                        <label>80%</label>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        
+                        <div class="back-end">
+                            <h4>Back-End</h4>
+                            <div class="lang">
+                                <div class=Node">
+                                    <label>Node</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="80" disabled>
+                                        <label>80%</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="row">
+                        <div class="tool">
+                            <h4>Tool</h4>
+                            <div class="lang">
+                                <div class=Unity">
+                                    <label>Unity</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="90" disabled>
+                                        <label>90%</label>
+                                    </div>
+                                </div>
+                                <div class="Unreal">
+                                    <label>Unreal</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="90" disabled>
+                                        <label>90%</label>
+                                    </div>
+                                </div>
+                                <div class="VS-Code">
+                                    <label style="text-align: center;">VS<br>Code</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="80" disabled>
+                                        <label>80%</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="client">
+                            <h4>Client</h4>
+                            <div class="lang">
+                                <div class=Python">
+                                    <label>Python</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="90" disabled>
+                                        <label>90%</label>
+                                    </div>
+                                </div>
+                                <div class="C++">
+                                    <label>C++</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="90" disabled>
+                                        <label>90%</label>
+                                    </div>
+                                </div>
+                                <div class="JAVA">
+                                    <label style="text-align: center;">JAVA</label>
+                                    <div>
+                                        <input type="range" name="js" id="js" value="80" disabled>
+                                        <label>80%</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project">
+                <div class="header">
+                    <h4>프로젝트</h4>
                 </div>
             </div>
         </div>

@@ -24,7 +24,17 @@
     box-sizing: border-box;
 }
 .wrapper {
-    width: 100vw;
+    width: 100%;
     display: inline-flex;
     position: relative;
+}
+.Content {
+    position: absolute;
+    top: 0;
+    left: 320px;
+    width: calc(100% - 360px);
+    background-color: #DBD4C1;
+    margin: 10px;
+    padding: 12px;
+    box-shadow: 5px 10px #CFC8B5;
 }
