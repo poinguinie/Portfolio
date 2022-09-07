@@ -8,6 +8,62 @@
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/navi.css">
     <link rel="stylesheet" href="./style/skills.css">
+    <style>
+        .Content .projects {
+            margin-top: 12px;
+            width: 100%;
+        }
+        .Content .projects .header h4 {
+            width: 100%;
+            font-size: 24px;
+            text-align: center;
+        }
+        .Content .projects .project {
+            width: 98%;
+            height: 240px;
+            margin: 12px;
+            padding: 8px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: white;
+        }
+        .Content .projects .project .project-img {
+            width: 300px;
+            height: 200px;
+            margin: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #D9D9D9;
+        }
+        .Content .projects .project .project-content {
+            display: flex;
+            flex-direction: column;
+            width: calc(100% - 320px);
+            height: 100%;
+            position: relative;
+        }
+        .Content .projects .project .project-content .project-title {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .Content .projects .project .project-content .project-desc {
+            margin-top: 8px;
+        }
+        .Content .projects .project .project-content .project-link {
+            position:absolute;
+            bottom: 0;
+        }
+        .Content .projects .project .project-content .project-link a {
+            text-decoration: none;
+            color: black;
+            transition: 0.2s;
+        }
+        .Content .projects .project .project-content .project-link a:hover {
+            color: #8D8D8D;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
@@ -122,15 +178,15 @@
                                 <div class=Unity">
                                     <label>Unity</label>
                                     <div>
-                                        <input type="range" name="js" id="js" value="90" disabled>
-                                        <label>90%</label>
+                                        <input type="range" name="js" id="js" value="80" disabled>
+                                        <label>80%</label>
                                     </div>
                                 </div>
                                 <div class="Unreal">
                                     <label>Unreal</label>
                                     <div>
-                                        <input type="range" name="js" id="js" value="90" disabled>
-                                        <label>90%</label>
+                                        <input type="range" name="js" id="js" value="40" disabled>
+                                        <label>40%</label>
                                     </div>
                                 </div>
                                 <div class="VS-Code">
@@ -155,15 +211,15 @@
                                 <div class="C++">
                                     <label>C++</label>
                                     <div>
-                                        <input type="range" name="js" id="js" value="90" disabled>
-                                        <label>90%</label>
+                                        <input type="range" name="js" id="js" value="60" disabled>
+                                        <label>60%</label>
                                     </div>
                                 </div>
                                 <div class="JAVA">
                                     <label style="text-align: center;">JAVA</label>
                                     <div>
-                                        <input type="range" name="js" id="js" value="80" disabled>
-                                        <label>80%</label>
+                                        <input type="range" name="js" id="js" value="70" disabled>
+                                        <label>70%</label>
                                     </div>
                                 </div>
                             </div>
@@ -171,9 +227,49 @@
                     </div>
                 </div>
             </div>
-            <div class="project">
+            <div class="projects">
                 <div class="header">
-                    <h4>프로젝트</h4>
+                    <h4>Projects</h4>
+                </div>
+                <div class="project" id="SchEclassManager">
+                    <div class="project-img">
+                        <img src="./images/sem.PNG" alt="Sch Eclass Manager" width="300px">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            Sch Eclass Manager
+                        </div>
+                        <div class="project-desc">
+                            순천향대학교 이클래스 매니저로, 이클래스 사이트에 있는 강의 자료 (PDF, 녹화 강의)를<br>
+                            크롬 확장 프로그램을 이용해 쉽게 다운로드 받을 수 있게 하였습니다.<br>
+                            학교 에브리 타임 등 SNS를 사용해 홍보하여 많은 학우가 사용 할 수 있도록 <br>
+                            하였습니다.<br>
+                            사용된 언어는 자바스크립트 입니다.
+                        </div>
+                        <div class="project-link">
+                            <a href="https://github.com/poinguinie/Sch_Eclass_Manager" target="_blank">깃허브 링크</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" id="KakaoChatManager">
+                    <div class="project-img">
+                        <img src="" alt="Kakao Chat Manager" width="300px">
+                    </div>
+                    <div class="project-content">
+                        <div class="project-title">
+                            카카오 채팅방 매니저
+                        </div>
+                        <div class="project-desc">
+                            카카오톡 채팅방에 있는 채팅들과 사람들을 분석하는 웹 사이트입니다.<br>
+                            특히 사람들이 많이 오고가며 채팅이 많은 오픈채팅방을 타겟으로 제작되었으며 <br>
+                            장기 잠수자 등을 색출해내는 데 많은 도움이 됩니다. <br>
+                            해당 사이트는 <a href="#" style="color: #A5A58D;">이 곳</a>을 클릭하면 사용할 수 있습니다. <br>
+                            사용된 언어는 백엔드 Node.js 이고, 프론트엔드 HTML, CSS, JS 입니다.
+                        </div>
+                        <div class="project-link">
+                            <a href="#" target="_blank">깃허브 링크</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
