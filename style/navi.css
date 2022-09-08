@@ -56,7 +56,13 @@
 .slogan h3 {
     font-weight: normal;
 }
-.school, .job, .certificate {
+.school {
+    margin-top: 40px;
+    font-size: 12px;
+    width: 100%;
+    margin-left: 10px;
+}
+.job, .certificate {
     margin-top: 20px;
     font-size: 12px;
     width: 100%;
