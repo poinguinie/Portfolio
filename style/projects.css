@@ -43,7 +43,7 @@
 .Content .projects .project .project-content .project-title {
     font-size: 24px;
     font-weight: bold;
-    font-family: 'IBMPlexSansKR-Regular' sans-serif;
+    font-family: 'IBMPlexSansKR-Regular', sans-serif;
 }
 .Content .projects .project .project-content .project-desc {
     margin-top: 8px;
