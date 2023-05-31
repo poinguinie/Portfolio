@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    unicode-range: U+AC00-D7A3;
+}
 .Content .projects {
     margin-top: 12px;
     width: 100%;
@@ -36,6 +43,7 @@
 .Content .projects .project .project-content .project-title {
     font-size: 24px;
     font-weight: bold;
+    font-family: 'IBMPlexSansKR-Regular' sans-serif;
 }
 .Content .projects .project .project-content .project-desc {
     margin-top: 8px;
